@@ -5,7 +5,7 @@
 
 
 
-package Demos.boardGame;
+package Demos;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -43,6 +43,10 @@ public class A_Die {
             System.out.println(die2.DIE_NUM);
             die1.rollDie();
             System.out.println(die1.DIE_NUM);
+
+
+
+
 
         }
 
