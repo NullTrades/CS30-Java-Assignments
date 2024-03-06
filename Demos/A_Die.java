@@ -37,6 +37,14 @@ public class A_Die {
         }
     }
 
+    public void display() {
+        System.out.println(this.DIE_NUM);
+    }
+
+    public int getDieNum() {
+        return this.DIE_NUM;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
